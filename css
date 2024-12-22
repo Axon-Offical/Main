@@ -235,3 +235,110 @@ svg[class^='slider_'] > rect[fill='white'] {
 [class^='form_'] > [class^='wrapper_']:hover {
     border-color: var(--border-hover-color);
 }
+/* GENERAL BACKGROUNDS */
+:root {
+    --background-primary: var(--bg-0);
+    --background-secondary: var(--bg-1);
+    --background-tertiary: var(--bg-2);
+    --background-modifier-accent: var(--bg-3);
+    --background-floating: var(--primary-800);
+    --background-message-highlight: var(--reply-overlay);
+    --background-message-highlight-hover: var(--reply-hover-overlay);
+    --background-mobile-primary: var(--primary-600);
+    --background-mobile-secondary: var(--primary-630);
+    --background-nested-floating: var(--primary-630);
+    --background-surface-raised: var(--bg-0);
+    --background-surface-overlay: var(--bg-1);
+    --background-surface-overlay-tmp: var(--primary-800);
+    --background-backdrop: hsl(0 calc(1 * 0%) 0% / 0.7);
+    --background-backdrop-no-opacity: var(--black-500);
+}
+
+/* BUTTONS */
+--button-outline-primary-background: hsl(0 calc(1 * 0%) 100% / 0);
+--button-outline-primary-background-active: var(--primary-430);
+--button-outline-primary-background-hover: var(--primary-500);
+--button-outline-primary-border: var(--primary-500);
+--button-outline-primary-border-active: var(--primary-430);
+--button-outline-primary-border-hover: var(--primary-500);
+--button-outline-primary-text: var(--txt-1);
+--button-outline-primary-text-active: var(--txt-1);
+--button-outline-primary-text-hover: var(--txt-1);
+
+--button-positive-background: var(--green-430);
+--button-positive-background-active: var(--green-530);
+--button-positive-background-disabled: var(--green-430);
+--button-positive-background-hover: var(--green-500);
+
+--button-danger-background: var(--red-430);
+--button-danger-background-active: var(--red-530);
+--button-danger-background-disabled: var(--red-430);
+--button-danger-background-hover: var(--red-500);
+
+/* ALERTS AND NOTIFICATIONS */
+--alert-bg: var(--primary-600);
+--info-positive-background: hsl(145 calc(1 * 65%) 39.2% / 0.1);
+--info-warning-background: hsl(40 calc(1 * 86.4%) 56.9% / 0.1);
+--info-danger-background: hsl(359 calc(1 * 87.3%) 59.8% / 0.1);
+--info-help-background: hsl(200 calc(1 * 100%) 49.4% / 0.1);
+
+/* MODAL, OVERLAY AND OTHER UI ELEMENTS */
+--modal-background: var(--bg-1);
+--modal-footer-background: var(--bg-0);
+--context-menu-backdrop-background: hsl(0 calc(1 * 0%) 0% / 0.7);
+--coachmark-bg: var(--primary-800);
+--embed-background: var(--primary-630);
+--embed-background-alternate: var(--primary-600);
+--content-inventory-overlay-ui-mod-bg: hsl(0 calc(1 * 0%) 0% / 0.1);
+
+/* INPUTS AND TEXT AREAS */
+--input-background: var(--bg-1);
+--input-focused-border: hsl(0 calc(1 * 0%) 100% / 0.16);
+--input-placeholder-text: var(--input-placeholder-text-dark);
+--channel-text-area-placeholder: var(--txt-3);
+--channeltextarea-background: var(--bg-0);
+--autocomplete-bg: var(--bg-1);
+
+/* PROFILE STYLES */
+--profile-gradient-card-background: hsl(0 calc(1 * 0%) 0% / 0.7);
+--profile-gradient-message-input-border: hsl(228 calc(1 * 6%) 32.5% / 0.48);
+--profile-gradient-note-background: hsl(0 calc(1 * 0%) 0% / 0.3);
+--profile-gradient-overlay: hsl(0 calc(1 * 0%) 0% / 0.6);
+--profile-gradient-overlay-synced-with-user-theme: hsl(0 calc(1 * 0%) 0% / 0.8);
+
+/* CHAT */
+--chat-background: var(--primary-600);
+--chat-banner-bg: var(--primary-630);
+--chat-border: var(--primary-700);
+--chat-input-container-background: var(--primary-600);
+--chat-swipe-to-reply-background: var(--primary-660);
+--chat-swipe-to-reply-gradient-background: hsl(0 calc(1 * 0%) 0% / 0.1);
+--redesign-chat-input-background: var(--primary-700);
+
+/* GENERAL COLORS */
+--text-primary: var(--txt-1);
+--text-secondary: var(--txt-2);
+--text-muted: var(--txt-3);
+--icon-primary: var(--primary-130);
+--icon-secondary: var(--primary-330);
+--logo-primary: var(--white-500);
+
+/* BUTTON STATES */
+--redesign-button-primary-background: var(--brand-500);
+--redesign-button-primary-pressed-background: var(--brand-560);
+--redesign-button-primary-overlay-background: var(--white-500);
+--redesign-button-primary-overlay-pressed-background: var(--primary-230);
+--redesign-button-primary-text: var(--white-500);
+--redesign-button-primary-pressed-text: var(--white-500);
+
+/* BORDERS */
+--border-faint: hsl(0 calc(1 * 0%) 100% / 0.03);
+--border-strong: hsl(0 calc(1 * 0%) 100% / 0.16);
+--border-subtle: hsl(0 calc(1 * 0%) 100% / 0.08);
+--divider-strong: hsl(0 calc(1 * 0%) 100% / 0.16);
+--divider-subtle: hsl(0 calc(1 * 0%) 100% / 0.08);
+--card-primary-pressed-bg: var(--primary-645);
+--card-secondary-pressed-bg: var(--primary-645);
+--redesign-activity-card-background: var(--primary-560);
+--redesign-activity-card-background-pressed: var(--primary-630);
+}
